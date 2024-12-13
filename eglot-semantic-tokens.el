@@ -103,7 +103,7 @@ the server doesn't support it."
   "Alist of faces to use to highlight semantic tokens.
 Each element is a cons cell whose car is a token type name and cdr is
 the face to use."
-  :type '(alist :key-type (string :tag "Token name")
+  :type `(alist :key-type (string :tag "Token name")
                 :value-type (choice (face :tag "Face")
                                     (plist :tag "Face Attributes"
                                            :key-type
